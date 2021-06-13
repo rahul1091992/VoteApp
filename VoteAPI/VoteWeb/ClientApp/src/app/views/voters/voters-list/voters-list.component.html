@@ -1,0 +1,74 @@
+<div class="animated fadeIn">
+    <!--/.row-->
+    <div class="row">
+       <div class="col-lg-12">
+         <div class="card">
+           <div class="card-header">
+               <div class="row">
+                   <div class="col-lg-4">
+             <i class="fa fa-align-justify"></i> Voters 
+           </div>
+           <div  class="col-4 text-center">
+             <img *ngIf="loading" height="20" width="20" src="assets/loader.gif">
+           </div>
+           <div class="col-lg-4 text-right">
+               <!-- <a  routerLink="add"> Add New Tenant</a> -->
+             </div>
+       </div>
+           </div>
+           <div class="card-body">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="form-group">
+                  <input  (keyup)="search($event.target.value)" type="text" class="form-control" placeholder="Search name..">
+                </div>
+      </div>
+      
+     
+  </div>
+
+           
+             <table class="table table-bordered table-striped">
+               <thead>
+                 <tr>
+                  <th>Image</th>
+                   <th>Name</th>
+                   <th>Father Name</th>
+                   <th>Email</th>
+                   <th>Phone</th>
+                   <th>Action</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <tr *ngFor="let item of collection.data | paginate: config">
+                    <td>  <img height="50" width="50"  
+                      ngModelOption [src]="downloadUrl+item.imageUrl"></td>
+                   <td> {{item.name}}</td>
+                   <td> {{item.fatherName}}</td>
+                   <td> {{item.email}}</td>
+                   <td> {{item.phone}}</td>
+                   
+                   <td>
+                    <a *ngIf="item.isActive" class="badge badge-success" href="javascript:" (click)="status(item.id)">Block</a>
+
+                    <a *ngIf="!(item.isActive)" class="badge badge-danger" href="javascript:" (click)="status(item.id)">Unblock</a>
+                    <a   class="badge badge-warning" routerLink="/voters/details/{{item.id}}">Details</a>
+                   </td>
+                 </tr>
+   
+                 
+               </tbody>
+             </table>  
+
+
+
+             
+            <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
+           </div>
+         </div>
+       </div>
+       <!--/.col-->
+     </div>
+     <!--/.row-->
+   </div>

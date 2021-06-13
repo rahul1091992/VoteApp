@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Admin\OneDrive\Desktop\New folder\PB</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>07/22/2020 09:56:14</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>10/29/2020 12:05:45</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>04/14/2020 22:39:12</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.HashCode.dll">
+      <publishTime>11/15/2019 08:38:50</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>09/26/2019 20:43:28</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>06/17/2020 07:46:14</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>06/17/2020 07:46:34</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>06/17/2020 07:46:40</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>06/17/2020 07:46:46</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
+      <publishTime>06/17/2020 06:46:58</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>06/17/2020 06:47:14</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>06/17/2020 06:47:16</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Binder.dll">
+      <publishTime>06/17/2020 06:47:34</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.dll">
+      <publishTime>06/17/2020 06:47:24</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>06/17/2020 06:47:30</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>06/17/2020 06:47:24</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>06/17/2020 06:48:16</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.dll">
+      <publishTime>06/17/2020 06:48:28</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>06/17/2020 06:47:24</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Primitives.dll">
+      <publishTime>06/17/2020 06:47:48</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>04/29/2019 22:04:14</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll">
+      <publishTime>05/15/2018 13:29:40</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/26/2019 20:43:26</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/sni.dll">
+      <publishTime>07/12/2017 11:24:24</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/sni.dll">
+      <publishTime>07/12/2017 11:24:22</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/sni.dll">
+      <publishTime>07/12/2017 11:24:22</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll">
+      <publishTime>05/15/2018 13:29:40</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/26/2019 20:43:26</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>05/15/2018 13:29:44</publishTime>
+    </File>
+    <File Include="System.Collections.Immutable.dll">
+      <publishTime>04/14/2020 22:38:40</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>05/15/2018 13:29:38</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>04/14/2020 22:48:06</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>05/15/2018 13:29:40</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>05/15/2018 13:29:44</publishTime>
+    </File>
+    <File Include="Vote.Data.dll">
+      <publishTime>10/31/2020 16:47:11</publishTime>
+    </File>
+    <File Include="Vote.Data.dll.config">
+      <publishTime>07/22/2020 10:19:48</publishTime>
+    </File>
+    <File Include="Vote.Data.pdb">
+      <publishTime>10/31/2020 16:47:11</publishTime>
+    </File>
+    <File Include="Vote.Model.dll">
+      <publishTime>10/30/2020 17:56:21</publishTime>
+    </File>
+    <File Include="Vote.Model.pdb">
+      <publishTime>10/30/2020 17:56:21</publishTime>
+    </File>
+    <File Include="Vote.Service.dll">
+      <publishTime>10/31/2020 16:47:11</publishTime>
+    </File>
+    <File Include="Vote.Service.dll.config">
+      <publishTime>07/22/2020 10:19:48</publishTime>
+    </File>
+    <File Include="Vote.Service.pdb">
+      <publishTime>10/31/2020 16:47:11</publishTime>
+    </File>
+    <File Include="VoteAPI.deps.json">
+      <publishTime>10/01/2020 17:24:11</publishTime>
+    </File>
+    <File Include="VoteAPI.dll">
+      <publishTime>10/31/2020 16:47:14</publishTime>
+    </File>
+    <File Include="VoteAPI.exe">
+      <publishTime>10/31/2020 16:47:14</publishTime>
+    </File>
+    <File Include="VoteAPI.pdb">
+      <publishTime>10/31/2020 16:47:14</publishTime>
+    </File>
+    <File Include="VoteAPI.runtimeconfig.json">
+      <publishTime>10/01/2020 17:24:12</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>10/31/2020 16:47:17</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

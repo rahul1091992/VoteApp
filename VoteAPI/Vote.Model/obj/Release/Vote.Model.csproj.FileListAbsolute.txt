@@ -1,0 +1,12 @@
+E:\VoteWeb\VoteAPI\Vote.Model\bin\Release\Vote.Model.dll
+E:\VoteWeb\VoteAPI\Vote.Model\bin\Release\Vote.Model.pdb
+E:\VoteWeb\VoteAPI\Vote.Model\obj\Release\Vote.Model.csprojAssemblyReference.cache
+E:\VoteWeb\VoteAPI\Vote.Model\obj\Release\Vote.Model.csproj.CoreCompileInputs.cache
+E:\VoteWeb\VoteAPI\Vote.Model\obj\Release\Vote.Model.dll
+E:\VoteWeb\VoteAPI\Vote.Model\obj\Release\Vote.Model.pdb
+E:\VoteWebApi\VoteAPI\Vote.Model\bin\Release\Vote.Model.dll
+E:\VoteWebApi\VoteAPI\Vote.Model\bin\Release\Vote.Model.pdb
+E:\VoteWebApi\VoteAPI\Vote.Model\obj\Release\Vote.Model.csprojAssemblyReference.cache
+E:\VoteWebApi\VoteAPI\Vote.Model\obj\Release\Vote.Model.csproj.CoreCompileInputs.cache
+E:\VoteWebApi\VoteAPI\Vote.Model\obj\Release\Vote.Model.dll
+E:\VoteWebApi\VoteAPI\Vote.Model\obj\Release\Vote.Model.pdb

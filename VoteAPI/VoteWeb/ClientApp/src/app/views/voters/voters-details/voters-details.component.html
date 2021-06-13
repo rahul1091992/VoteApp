@@ -1,0 +1,90 @@
+<div class="animated fadeIn">
+    <div class="row">
+      <div class="col-sm-12">
+          
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-sm-4">
+      <strong>Details</strong> 
+</div>
+<div  class="col-4 text-center">
+  <img *ngIf="loading" height="20" width="20" src="assets/loader.gif">
+</div>
+<div class="col-sm-4 text-right">
+    <a  routerLink="/voters"> View Voters</a>
+</div>
+</div>
+    </div>
+    <form>
+    <div class="card-body">
+
+
+         
+
+         
+ 
+
+
+          
+ 
+          
+ 
+
+ 
+
+<div class="container">
+    <div class="row">
+
+        
+        
+        <div class="col"><strong>Photo </strong> </div>
+        <div class="col">  <img   height="80" width="80"  
+            ngModelOption [src]="downloadUrl+image">  </div></div> 
+    <div class="row">
+
+        
+        
+      <div class="col"><strong>Full Name </strong> </div>
+      <div class="col"> <label>{{name}}</label></div>
+
+      <div class="w-100"></div>
+      <div class="col"><strong>Father Name</strong> </div>
+      <div class="col"> <label>{{fatherName}}</label></div>
+
+      <div class="w-100"></div>
+      <div class="col"><strong>Email</strong> </div>
+      <div class="col"> <label>{{email}}</label></div>
+
+      <div class="w-100"></div>
+      <div class="col"><strong>Phone</strong> </div>
+      <div class="col"> <label>{{phone}}</label></div>
+
+      <div class="w-100"></div>
+      <div class="col"><strong>Adhar</strong> </div>
+      <div class="col"> <label>{{adhar}}</label></div>
+
+      
+      <div class="w-100"></div>
+      <div class="col"><strong>Address</strong> </div>
+      <div class="col"> <label>{{address}}</label></div>
+      <div class="w-100"></div>
+
+       
+
+      <div class="col"><strong>ID Proof</strong> </div>
+      <div class="col">
+        <img height="100" width="100"  
+        ngModelOption [src]="downloadUrl+proof">
+      </div>
+    </div>
+  </div>
+
+
+
+ 
+
+    </div>
+     
+  </form>
+  </div></div>  </div>  </div>

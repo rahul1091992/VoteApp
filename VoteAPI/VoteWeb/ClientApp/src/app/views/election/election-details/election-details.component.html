@@ -1,0 +1,102 @@
+<div class="animated fadeIn">
+    <div class="row">
+      <div class="col-sm-12">
+          
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-sm-4">
+      <strong>Election Details</strong> 
+</div>
+<div  class="col-4 text-center">
+  <img *ngIf="loading" height="20" width="20" src="assets/loader.gif">
+</div>
+<div class="col-sm-4 text-right">
+    <a  routerLink="/election"> View Elections</a>
+</div>
+</div>
+    </div>
+     
+    <div class="card-body">
+
+
+         <div class="form-group">
+            <span style="font-size: xx-large;" class="badge badge-secondary"> </span>
+          </div>
+       
+
+         
+ 
+
+
+           
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <span style="font-size: large;">{{name}}</span>
+          </nav>
+<br/>
+
+ 
+
+<div class="container">
+    <div class="row">
+      <div class="col"><strong>Total Vote:- </strong> </div>
+      <div class="col"> <label class="badge badge-primary">{{totalVote}}</label></div>
+
+      <!-- <div class="w-100"></div>
+      <div class="col"><strong>Election Winner:-</strong> </div>
+      <div class="col"> <label class="badge badge-success">{{winner}}</label></div> -->
+
+     
+
+       
+
+      
+
+    </div>
+    <br>
+    <div class="row">
+        <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Father name</th>
+                <th>Email</th>
+                <th>Total vote</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <tr *ngFor="let item of candidates">
+                <td>
+                 <img height="50" width="50" style="border-radius: 25px;" 
+                 ngModelOption [src]="downloadUrl+item.imageName">
+                   </td>
+                <td> {{item.name}}</td>
+                <td> {{item.fatherName}}</td>
+                <td> {{item.email}}</td>
+                <td> {{item.totalVote}}</td>
+
+                <td>
+                  <a  class="badge badge-warning" routerLink="/election/electionvoters/{{item.id}},{{electionId}}">View Voters</a>
+                </td>
+              </tr>
+
+              
+            </tbody>
+          </table>
+    </div>
+
+
+  </div>
+
+
+
+ 
+
+    </div>
+    
+   
+  </div></div>  </div>  </div>

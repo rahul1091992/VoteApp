@@ -1,0 +1,137 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\voteCode\\VoteAPI\\VoteAPI\\VoteAPI.csproj": {}
+  },
+  "projects": {
+    "E:\\voteCode\\VoteAPI\\Vote.Data\\Vote.Data.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\voteCode\\VoteAPI\\Vote.Data\\Vote.Data.csproj",
+        "projectName": "Vote.Data",
+        "projectPath": "E:\\voteCode\\VoteAPI\\Vote.Data\\Vote.Data.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "E:\\voteCode\\VoteAPI\\Vote.Model\\Vote.Model.csproj": {
+                "projectPath": "E:\\voteCode\\VoteAPI\\Vote.Model\\Vote.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\voteCode\\VoteAPI\\Vote.Model\\Vote.Model.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\voteCode\\VoteAPI\\Vote.Model\\Vote.Model.csproj",
+        "projectName": "Vote.Model",
+        "projectPath": "E:\\voteCode\\VoteAPI\\Vote.Model\\Vote.Model.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\voteCode\\VoteAPI\\Vote.Service\\Vote.Service.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\voteCode\\VoteAPI\\Vote.Service\\Vote.Service.csproj",
+        "projectName": "Vote.Service",
+        "projectPath": "E:\\voteCode\\VoteAPI\\Vote.Service\\Vote.Service.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "E:\\voteCode\\VoteAPI\\Vote.Data\\Vote.Data.csproj": {
+                "projectPath": "E:\\voteCode\\VoteAPI\\Vote.Data\\Vote.Data.csproj"
+              },
+              "E:\\voteCode\\VoteAPI\\Vote.Model\\Vote.Model.csproj": {
+                "projectPath": "E:\\voteCode\\VoteAPI\\Vote.Model\\Vote.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\voteCode\\VoteAPI\\VoteAPI\\VoteAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\voteCode\\VoteAPI\\VoteAPI\\VoteAPI.csproj",
+        "projectName": "VoteAPI",
+        "projectPath": "E:\\voteCode\\VoteAPI\\VoteAPI\\VoteAPI.csproj",
+        "packagesPath": "C:\\Users\\Rahul\\.nuget\\packages\\",
+        "outputPath": "E:\\voteCode\\VoteAPI\\VoteAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rahul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\voteCode\\VoteAPI\\Vote.Data\\Vote.Data.csproj": {
+                "projectPath": "E:\\voteCode\\VoteAPI\\Vote.Data\\Vote.Data.csproj"
+              },
+              "E:\\voteCode\\VoteAPI\\Vote.Service\\Vote.Service.csproj": {
+                "projectPath": "E:\\voteCode\\VoteAPI\\Vote.Service\\Vote.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
